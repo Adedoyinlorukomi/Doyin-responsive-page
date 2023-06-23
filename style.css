@@ -65,7 +65,7 @@ body{
 #book{
     font-size: 16px; font-weight: 700; line-height: 80px; color: #131126;
 }
-.star{
+.ratings{
     display: flex;
     gap: 30px;
 }
@@ -159,7 +159,6 @@ body{
     gap: 15px;
 }
 
-
 #supervision{
     display: flex;
      flex-direction: column;
@@ -174,6 +173,7 @@ body{
 }
 .button-mark{
     display: flex;
+    gap: 20px;
 }
 .mark-text{
     color: #201C44;;
@@ -182,12 +182,28 @@ body{
 }
 .section-six{
     display: grid;
-    grid-template-columns: 0.4fr 0.6fr;
-    gap: 300px;
+    grid-template-columns: 0.45fr 0.55fr;
+    gap: 220px;
 }
 .woman-two-images{
     position: relative;
 }
+#flame{
+    position: absolute;
+    top: 67px;
+    right: 149px;
+}
+#linear{
+    position: absolute;
+    left: -87px;
+    top: 170px;
+}
+#bts{
+    position: absolute;
+    left: 135px;
+    top: 190px;
+}
+
 .input{
     display: flex;
     flex-direction: column;
@@ -205,12 +221,80 @@ body{
     font-size: 14px;
     line-height: 50px;
 }
+.smallFlame{
+    display: none;
+}
+.updates{
+    text-align: center;
+    margin: 130px 0 60px 0 ;
+}
+.update-one{
+    color: #201C44; font-size: 38px; font-weight: 700; line-height: 46px;
+}
+.update-two{
+    color: #131126;
+    font-size: 16px; line-height: 28px;
+}
 
+.section-seven{
+    display: flex;
+    justify-content: space-around;
+    gap: 15px;
+}
+.type1{
+    font-size: 12px;
+    color: #131126;
+}
+.type2{
+    font-size: 20px; font-weight: 700; line-height: 32px; color: #201C44;
+}
+
+#signs{
+    display: none;
+}
+.growth,.career,.design{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.FAQ1,.FAQ2{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #131126;
+    padding: 17px 56px;
+    border-radius: 9px;
+    font-size: 14px;
+    
+}
+
+.FAQ1{
+    background-color: #3C3679;
+    color: #ffffff;
+}
+.FAQ2{
+    color: #131126;font-weight: 700;
+}
+.section-eight{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.FAQ-text{
+    padding: 10px 45px;
+    color: #131126;
+    font-size: 16px;
+    line-height: 20px;
+}
+.conBook{
+    display: flex;
+    padding: 10px 0 0 35%;
+}
 
 @media only screen and (max-width: 428px) {
     .home{
         display: none;
     }
+   
     .purple{
         border-radius: 8px;
     }
@@ -268,5 +352,96 @@ body{
         display: flex;
         flex-direction: column;
     }
+    .man-images{
+        position: relative;
+        border-radius: 5px;
+    }
+    .man{
+        width: 273px;
+        height: 376px
+    }
+    .new{
+        width: 400.5px;
+        height: 346.5px;
+        top: 170px;
+        right: 67px;
+    }
+    .star{
+        width: 53px;
+        height: 50.4px;
+        left: 230px;
+    }
+    .linear{
+        width: 82.3px;
+        height: 50.5px;
+        left: -44px;
+        top: 114px;
+    }
+    .button-mark{
+        width: max-content;
+        gap: 12px;
+    }
+    .input{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .input-content{
+        display: flex;
+        gap: 20px;
+        width: 302px; height: 52px;
+        border: 1px solid #D0D0D0;
+        padding-left: 13px;
+        
+    }
+    #woman-two{
+        width: 300px;
+        height: 376px;
+        border-radius: 3px;
+    }
+    #flame{
+        top: 12px;
+        right: 24px;
+        width: 43px;
+        height: 55px;
+    }
+    #linear{
+        left: -28px;
+        top: 68px;
+        width: 82px;
+        height: 50px
+    }
+    #bts{
+        width: 280.45px;
+        height: 311.85px;
+        top: 127px;
+        left: -123px
+    }
+    .smallFlame{
+        display: flex;
+        margin: 50px 0 -70px 0 ;
+        padding-left: 46%;
+    }
+    .design, .career{
+        display: none;
+    }
+    #growth{
+        width: 283px;
+        height: 269px;
+        border-radius: 5px;
+    }
+    #signs{
+        display: flex;
+        height: 40px;
+        width: 90px;
+        margin-left: 80px;
+    }
+    #sign{
+        display: none;  
+    }
+    .conBook{
+        margin-left: -140px;
+    }
+
 }
     

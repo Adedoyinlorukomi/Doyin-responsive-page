@@ -482,8 +482,15 @@ body{
     .section-ten{
         display: none;
     }
-    #footer{
-        display: none;
+    .footer{
+        display: flex;
+        flex-direction: column;
+        gap: 19px;
+    }
+    .mediaText{
+        display: flex;
+        flex-direction: column;
+        gap: 19px;
     }
 
 }

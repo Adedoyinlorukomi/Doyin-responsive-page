@@ -288,6 +288,43 @@ body{
 .conBook{
     display: flex;
     padding: 10px 0 0 35%;
+    margin-bottom: 30px;
+}
+.footer{
+    display: grid;
+    grid-template-columns: 0.6fr 0.4fr;
+    border-bottom: 1px solid #131126; margin: 30px 40px;
+    padding-bottom: 20px;
+}
+.mediaText{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 30px 54px;
+    color: #131126;
+}
+.home-two{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.section-ten{
+    position: relative;
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr;
+    justify-content: space-between;
+    margin: 50px 0;
+    background-color: #f6f6f9;
+}
+.client{
+    position: absolute;
+    top: 269px;
+    right: -6px;
+}
+.starr{
+    position: absolute;
+    top: 20px;
+    left: 5px;
 }
 
 @media only screen and (max-width: 428px) {
@@ -441,6 +478,12 @@ body{
     }
     .conBook{
         margin-left: -140px;
+    }
+    .section-ten{
+        display: none;
+    }
+    #footer{
+        display: none;
     }
 
 }
